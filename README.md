@@ -1,5 +1,6 @@
 
 ## MetrixSDK Unity Plugin 
+<div dir="rtl">
 
 پلاگین یونیتی sdk متریکس، اطلاعات بیشتر در [متریکس](https://metrix.ir).
   
