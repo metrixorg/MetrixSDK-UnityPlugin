@@ -16,9 +16,11 @@ namespace MetrixSDK
             settings.Add("appId", appId);
         }
 
-        public void SetFirebaseAppId(string firebaseAppId)
+        public void SetFirebaseId(string firebaseAppId, string firebaseProjectId, string firebaseApiKey)
         {
             settings.Add("firebaseAppId", firebaseAppId);
+            settings.Add("firebaseProjectId", firebaseProjectId);
+            settings.Add("firebaseApiKey", firebaseApiKey);
         }
 
         /**
