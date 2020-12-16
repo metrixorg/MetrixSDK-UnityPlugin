@@ -1,4 +1,5 @@
 #import <MetrixSdk/Metrix.h>
+#import <MetrixSdk/MXConfig.h>
 #import <MetrixSdk/MXCustomEvent.h>
 #import "UnityAppController.h"
 #import <Foundation/Foundation.h>
@@ -30,7 +31,7 @@ void MXSafeUnitySendMessage(const char *methodName, const char *param) {
     UnitySendMessage("MetrixManager", methodName, param);
 }
 
-@interface MetrixUnityController : NSObject
+@interface MetrixUnityController : NSObject, MetrixDelegate
 
 - (void) initializeWithAppKey:(NSString* )appkey;
 - (void) newEvent:(NSString* )slug;
